@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+##Build a web app in ReactJS with Nextjs using app router,
+ 
+1. Home page: displays a table of information using this api: https://api.github.com/repositories
+   - It should have owner profile picture on the first column, then owner name, repo name, repo url, and description
+   - It should have a search feature and a pagination feature
+2. User detail page: displays owner profile picture, owner name, then a list of the owner's followers using owner object's  `followers_url`
+   - It should have breadcrumb, owner profile picture, owner name then a list of the owner's followers using owner object's followers_url
+   - It should show each follower profile picture, follower name, repo ur
+   - it should use infinite scrolling to show all followers_url, and show a end of data indicator
+ 
+- It should be written using typescript
+- It should be written using modern best practices and features of the ReactJS framework
+- It should be styled ease-of-use in mind and attention to detail
+- Ideally the main parts will be unit tested using a framework such as jest (simple tests are fine)
+- **No ui libraries**  allow, eg: React Bootstrap, Core UI
